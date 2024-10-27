@@ -95,7 +95,8 @@ The Secure Shell (SSH) protocol is a method for securely sending commands to a c
 
 ## Task 7: Databases
 Setting up a MySQL database and creating a simple CRUD (Create, Read, Update, Delete) application using Node.js helped get familiarize with database management and querying.
-![image](https://github.com/user-attachments/assets/bf39d1e3-46b1-4329-893e-ca83270f31ee)  
+![image](https://github.com/user-attachments/assets/3bfb148f-480e-4b77-a6cb-994d3f181516)
+  
 ![image](https://github.com/user-attachments/assets/f8ed5f8e-6779-406b-ad6c-3b6b7116a75f)  
 ![image](https://github.com/user-attachments/assets/7ea97da1-201f-4441-a9ea-f9f8673a65a8)  
 
