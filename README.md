@@ -31,11 +31,11 @@ Git Bash is a command line interface for Git on Windows. It provides a Unix-like
 - *git pull:* Fetch and merge changes from the remote repository.
 - *git push:* Push your commits to the remote repository.
 - *git branch:* List all branches or create a new branch.
-- *git checkout [branch-name]:* Switch to a different branch.
+- *git checkout [branch-name]:* Switch to a different branch.  
 ![image](https://github.com/user-attachments/assets/bf5a9abd-3275-45fa-9f0c-23db6eea2ecb)
 ![image](https://github.com/user-attachments/assets/bc9105f7-a82f-4dfa-b2cc-3823224d3a69)  
 
-[code](https://github.com/vvvvvvss/gitbash-and-github/blob/main/README.md)
+[Code](https://github.com/vvvvvvss/gitbash-and-github/blob/main/README.md)
 
 ## Task 3: OSI MODEL
 
