@@ -38,13 +38,50 @@ Git Bash is a command line interface for Git on Windows. It provides a Unix-like
 [Code](https://github.com/vvvvvvss/gitbash-and-github/blob/main/README.md)
 
 ## Task 3: OSI MODEL
+The Open Systems Interconnection (OSI) model describes seven layers that computer systems use to communicate over a network.    
+![OSIModel drawio (1)](https://github.com/user-attachments/assets/7808d1d1-292d-45f1-a3c6-c5857ed6d86e)
+
+Recieving data - bottom up approach   
+Transmitting data - top down approach
+### OSI Model Layers Overview
+
+1. **Physical Layer**: Manages physical connections between devices, using cables or wireless technology, and transmits raw binary data (0s and 1s) with bit rate control.
+
+2. **Data Link Layer**: Establishes connections between directly connected devices, breaking data into frames. It includes Logical Link Control (LLC) for error checking and Media Access Control (MAC) for device addressing.
+
+3. **Network Layer**: Routes data by breaking it into packets and finding optimal paths across networks using IP addresses.
+
+4. **Transport Layer**: Segments data for transmission and reassembles it on arrival. It handles flow and error control to ensure accurate delivery.
+
+5. **Session Layer**: Opens, manages, and closes communication sessions between devices, enabling checkpointing to resume interrupted data transfers.
+
+6. **Presentation Layer**: Prepares data for the application layer by encoding, encrypting, and compressing it for secure and compatible transmission.
+
+7. **Application Layer**: Interfaces with user applications like browsers and email, using protocols like HTTP, FTP, SMTP, and DNS for data exchange.
+
+
 
 
 ## Task 4: Encryption Techniques
+Cryptography is the act of using codes or ciphers to protect secrets. 
+Encryption techniques are methods of securing data by converting it into unreadable formats that can only be reverted by authorized users. Common techniques include:  
+
+**Symmetric Encryption:** Uses a single key for both encryption and decryption (e.g., AES, DES).  
+**Asymmetric Encryption:** Uses a public key for encryption and a private key for decryption (e.g., RSA).  
+**Hash Functions:** Generates a fixed-size hash value from data, often for verifying integrity (e.g., SHA-256).  
+![image](https://github.com/user-attachments/assets/6bf7d4d4-c189-4507-8ffd-97c1b0651883)    
+[code](https://github.com/vvvvvvss/EncryptionTechniques/tree/main)
 
 
 ## Task 5: IP Addressing and Protocols
-https://github.com/vvvvvvss/WebScraping
+An Internet Protocol (IP) address is the unique identifying number assigned to every device connected to the internet.
+Web scraping is an automatic method to obtain large amounts of data from websites. 
+Most of this data is unstructured data in an HTML format which is then converted into structured data in a spreadsheet or a database so that it can be used in various applications. 
+Beautiful Soup is a Python package for parsing HTML and XML documents, including those with malformed markup.
+It creates a parse tree for documents that can be used to extract data from HTML, which is useful for web scraping.  
+![image](https://github.com/user-attachments/assets/5619669c-4843-49f5-be29-c08c3b0e4b3a)  
+
+[Code](https://github.com/vvvvvvss/WebScraping)
 
 ## Task 6: Kali Linux and SSH
 
