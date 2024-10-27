@@ -84,5 +84,19 @@ It creates a parse tree for documents that can be used to extract data from HTML
 [Code](https://github.com/vvvvvvss/WebScraping)
 
 ## Task 6: Kali Linux and SSH
+Kali Linux is a Linux distribution designed for digital forensics and penetration testing. 
+It is maintained and funded by Offensive Security. 
+The software is based on the Debian Testing branch: most packages Kali uses are imported from the Debian repositories.   
+Penetration testing, often referred to as pen testing, is a critical practice in the field of cybersecurity.  
+SSH (Secure Shell) is a protocol used to securely access remote machines over a network. 
+It encrypts data sent between the client and server, providing a secure way to manage servers, transfer files, or execute commands remotely. 
+The Secure Shell (SSH) protocol is a method for securely sending commands to a computer over an unsecured network.  
+![image](https://github.com/user-attachments/assets/7d504eb9-2ad2-494f-a7e9-5d53dadbfda9)
 
 ## Task 7: Databases
+Setting up a MySQL database and creating a simple CRUD (Create, Read, Update, Delete) application using Node.js helped get familiarize with database management and querying.
+![image](https://github.com/user-attachments/assets/bf39d1e3-46b1-4329-893e-ca83270f31ee)  
+![image](https://github.com/user-attachments/assets/f8ed5f8e-6779-406b-ad6c-3b6b7116a75f)  
+![image](https://github.com/user-attachments/assets/7ea97da1-201f-4441-a9ea-f9f8673a65a8)  
+
+
