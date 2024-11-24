@@ -46,14 +46,18 @@ Recieving data - bottom up approach
 Transmitting data - top down approach
 ### OSI Model Layers Overview
 
-1. **Physical Layer**: Manages physical connections between devices, using cables or wireless technology, and transmits raw binary data (0s and 1s) with bit rate control.
+1. **Physical Layer**: Manages physical connections between devices, using cables or wireless technology, and transmits raw binary data (0s and 1s) with bit rate control. 
 
-2. **Data Link Layer**: Establishes connections between directly connected devices, breaking data into frames. It includes Logical Link Control (LLC) for error checking and Media Access Control (MAC) for device addressing.
+2. **Data Link Layer**: Establishes connections between directly connected devices, breaking data into frames. It includes Logical Link Control (LLC) for error checking and Media Access Control (MAC) for device addressing. They perform Physical Addressing, Framming(access the media), Media access control  
 
-3. **Network Layer**: Routes data by breaking it into packets and finding optimal paths across networks using IP addresses.
+3. **Network Layer**: Routes data by breaking it into packets and finding optimal paths across networks using IP addresses. It transmitts dats from one computer to another. The data in this layer are called packets. This is the layer where networks reside. They perform functions of Logical addreessing(IPv4 and IPv6), Routing(the method of moving data packets from source to destination) and Path determination(best path for transimission).  
+Protocols: OSPF, BGP, IS-IS  
 
 4. **Transport Layer**: Segments data for transmission and reassembles it on arrival. It handles flow and error control to ensure accurate delivery. It controls the amount of data transmitted. It helps in error control, it performs the automatic repeat request. Protocols of this layer are TCP(Transmission Control Protocol) and UDP(User Datagram Protocol).     
-TCP - Connection oriented transmission    UDP - Connectionless transmission
+TCP - Connection oriented transmission, gives feedback.     
+UDP - Connectionless transmission, no feedback. Protocols: TFTP,DNS
+
+
 5. **Session Layer**: Opens, manages, and closes communication sessions between devices, enabling checkpointing to resume interrupted data transfers. Authentications and authorization occurs in this layer. Session layer keeps a track of downloaded files. These files are recieved in form of data packets.
 
 6. **Presentation Layer**: Prepares data for the application layer by encoding, encrypting, and compressing it for secure and compatible transmission.
