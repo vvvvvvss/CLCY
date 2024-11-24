@@ -10,7 +10,7 @@ This application allows users to send and receive messages instantly without nee
 - **Socket.io**: Library for enabling real-time communication between clients and the server.  
 - **HTML/CSS**: For the front-end user interface.  
 ![image](https://github.com/user-attachments/assets/71d7d7b7-7f44-48ed-8292-1f43c5357e56)
-(code)[https://github.com/vvvvvvss/socket] 
+[code](https://github.com/vvvvvvss/socket)
 
 ## Task 2: Git Bash and GitHub
 ### Git
