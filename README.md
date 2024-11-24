@@ -52,8 +52,8 @@ Transmitting data - top down approach
 
 3. **Network Layer**: Routes data by breaking it into packets and finding optimal paths across networks using IP addresses.
 
-4. **Transport Layer**: Segments data for transmission and reassembles it on arrival. It handles flow and error control to ensure accurate delivery. It controls the amount of data transmitted. it helps in error control, it performs the automatic repeat request. Protocols of this layer are TCP(Transmission Control Protocol) and UDP(User Datagram Protocol).     
-
+4. **Transport Layer**: Segments data for transmission and reassembles it on arrival. It handles flow and error control to ensure accurate delivery. It controls the amount of data transmitted. It helps in error control, it performs the automatic repeat request. Protocols of this layer are TCP(Transmission Control Protocol) and UDP(User Datagram Protocol).     
+TCP - Connection oriented transmission    UDP - Connectionless transmission
 5. **Session Layer**: Opens, manages, and closes communication sessions between devices, enabling checkpointing to resume interrupted data transfers. Authentications and authorization occurs in this layer. Session layer keeps a track of downloaded files. These files are recieved in form of data packets.
 
 6. **Presentation Layer**: Prepares data for the application layer by encoding, encrypting, and compressing it for secure and compatible transmission.
