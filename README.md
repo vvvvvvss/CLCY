@@ -38,7 +38,8 @@ Git Bash is a command line interface for Git on Windows. It provides a Unix-like
 [Code](https://github.com/vvvvvvss/gitbash-and-github/blob/main/README.md)
 
 ## Task 3: OSI MODEL
-The Open Systems Interconnection (OSI) model describes seven layers that computer systems use to communicate over a network.    
+The Open Systems Interconnection (OSI) model describes seven layers that computer systems use to communicate over a network. Each layer is a pajakge of protocols.    
+
 ![OSIModel drawio (1)](https://github.com/user-attachments/assets/7808d1d1-292d-45f1-a3c6-c5857ed6d86e)
 
 Recieving data - bottom up approach   
@@ -51,13 +52,13 @@ Transmitting data - top down approach
 
 3. **Network Layer**: Routes data by breaking it into packets and finding optimal paths across networks using IP addresses.
 
-4. **Transport Layer**: Segments data for transmission and reassembles it on arrival. It handles flow and error control to ensure accurate delivery.
+4. **Transport Layer**: Segments data for transmission and reassembles it on arrival. It handles flow and error control to ensure accurate delivery. It controls the amount of data transmitted. it helps in error control, it performs the automatic repeat request. Protocols of this layer are TCP(Transmission Control Protocol) and UDP(User Datagram Protocol).     
 
-5. **Session Layer**: Opens, manages, and closes communication sessions between devices, enabling checkpointing to resume interrupted data transfers.
+5. **Session Layer**: Opens, manages, and closes communication sessions between devices, enabling checkpointing to resume interrupted data transfers. Authentications and authorization occurs in this layer. Session layer keeps a track of downloaded files. These files are recieved in form of data packets.
 
 6. **Presentation Layer**: Prepares data for the application layer by encoding, encrypting, and compressing it for secure and compatible transmission.
 
-7. **Application Layer**: Interfaces with user applications like browsers and email, using protocols like HTTP, FTP, SMTP, and DNS for data exchange.
+7. **Application Layer**: Interfaces with user applications like browsers and email, using protocols like HTTP, FTP, SMTP, and DNS for data exchange. It is used by network applications. File transfer - FTP, Web surfing - HTTP/S, Email - SMTP.
 
 
 
